@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFF9843814F9ED880038B326 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF9843714F9ED880038B326 /* UIKit.framework */; };
+		EFF9843A14F9ED880038B326 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF9843914F9ED880038B326 /* Foundation.framework */; };
+		EFF9843C14F9ED880038B326 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF9843B14F9ED880038B326 /* CoreGraphics.framework */; };
+		EFF9844214F9ED880038B326 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFF9844014F9ED880038B326 /* InfoPlist.strings */; };
+		EFF9844414F9ED880038B326 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF9844314F9ED880038B326 /* main.m */; };
+		EFF9844814F9ED880038B326 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF9844714F9ED880038B326 /* AppDelegate.m */; };
+		EFF9844B14F9ED880038B326 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF9844914F9ED880038B326 /* MainStoryboard.storyboard */; };
+		EFF9844E14F9ED880038B326 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF9844D14F9ED880038B326 /* ViewController.m */; };
+		EFF9845A14F9F2F50038B326 /* BackSideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF9845914F9F2F50038B326 /* BackSideViewController.m */; };
+		EFF9845D14F9F4F00038B326 /* FrontSideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF9845C14F9F4F00038B326 /* FrontSideViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EFF9843314F9ED880038B326 /* Flippi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flippi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFF9843714F9ED880038B326 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EFF9843914F9ED880038B326 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EFF9843B14F9ED880038B326 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EFF9843F14F9ED880038B326 /* Flippi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Flippi-Info.plist"; sourceTree = "<group>"; };
+		EFF9844114F9ED880038B326 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EFF9844314F9ED880038B326 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFF9844514F9ED880038B326 /* Flippi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Flippi-Prefix.pch"; sourceTree = "<group>"; };
+		EFF9844614F9ED880038B326 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFF9844714F9ED880038B326 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFF9844A14F9ED880038B326 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		EFF9844C14F9ED880038B326 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EFF9844D14F9ED880038B326 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EFF9845814F9F2F50038B326 /* BackSideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackSideViewController.h; sourceTree = "<group>"; };
+		EFF9845914F9F2F50038B326 /* BackSideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackSideViewController.m; sourceTree = "<group>"; };
+		EFF9845B14F9F4F00038B326 /* FrontSideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrontSideViewController.h; sourceTree = "<group>"; };
+		EFF9845C14F9F4F00038B326 /* FrontSideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrontSideViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFF9843014F9ED880038B326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF9843814F9ED880038B326 /* UIKit.framework in Frameworks */,
+				EFF9843A14F9ED880038B326 /* Foundation.framework in Frameworks */,
+				EFF9843C14F9ED880038B326 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFF9842814F9ED880038B326 = {
+			isa = PBXGroup;
+			children = (
+				EFF9843D14F9ED880038B326 /* Flippi */,
+				EFF9843614F9ED880038B326 /* Frameworks */,
+				EFF9843414F9ED880038B326 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFF9843414F9ED880038B326 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFF9843314F9ED880038B326 /* Flippi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFF9843614F9ED880038B326 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFF9843714F9ED880038B326 /* UIKit.framework */,
+				EFF9843914F9ED880038B326 /* Foundation.framework */,
+				EFF9843B14F9ED880038B326 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFF9843D14F9ED880038B326 /* Flippi */ = {
+			isa = PBXGroup;
+			children = (
+				EFF9844614F9ED880038B326 /* AppDelegate.h */,
+				EFF9844714F9ED880038B326 /* AppDelegate.m */,
+				EFF9844914F9ED880038B326 /* MainStoryboard.storyboard */,
+				EFF9845B14F9F4F00038B326 /* FrontSideViewController.h */,
+				EFF9845C14F9F4F00038B326 /* FrontSideViewController.m */,
+				EFF9844C14F9ED880038B326 /* ViewController.h */,
+				EFF9844D14F9ED880038B326 /* ViewController.m */,
+				EFF9843E14F9ED880038B326 /* Supporting Files */,
+				EFF9845814F9F2F50038B326 /* BackSideViewController.h */,
+				EFF9845914F9F2F50038B326 /* BackSideViewController.m */,
+			);
+			path = Flippi;
+			sourceTree = "<group>";
+		};
+		EFF9843E14F9ED880038B326 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFF9843F14F9ED880038B326 /* Flippi-Info.plist */,
+				EFF9844014F9ED880038B326 /* InfoPlist.strings */,
+				EFF9844314F9ED880038B326 /* main.m */,
+				EFF9844514F9ED880038B326 /* Flippi-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFF9843214F9ED880038B326 /* Flippi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFF9845114F9ED880038B326 /* Build configuration list for PBXNativeTarget "Flippi" */;
+			buildPhases = (
+				EFF9842F14F9ED880038B326 /* Sources */,
+				EFF9843014F9ED880038B326 /* Frameworks */,
+				EFF9843114F9ED880038B326 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flippi;
+			productName = Flippi;
+			productReference = EFF9843314F9ED880038B326 /* Flippi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFF9842A14F9ED880038B326 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = EFF9842D14F9ED880038B326 /* Build configuration list for PBXProject "Flippi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EFF9842814F9ED880038B326;
+			productRefGroup = EFF9843414F9ED880038B326 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFF9843214F9ED880038B326 /* Flippi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFF9843114F9ED880038B326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF9844214F9ED880038B326 /* InfoPlist.strings in Resources */,
+				EFF9844B14F9ED880038B326 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFF9842F14F9ED880038B326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF9844414F9ED880038B326 /* main.m in Sources */,
+				EFF9844814F9ED880038B326 /* AppDelegate.m in Sources */,
+				EFF9844E14F9ED880038B326 /* ViewController.m in Sources */,
+				EFF9845A14F9F2F50038B326 /* BackSideViewController.m in Sources */,
+				EFF9845D14F9F4F00038B326 /* FrontSideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EFF9844014F9ED880038B326 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFF9844114F9ED880038B326 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EFF9844914F9ED880038B326 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFF9844A14F9ED880038B326 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFF9844F14F9ED880038B326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EFF9845014F9ED880038B326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFF9845214F9ED880038B326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flippi/Flippi-Prefix.pch";
+				INFOPLIST_FILE = "Flippi/Flippi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EFF9845314F9ED880038B326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flippi/Flippi-Prefix.pch";
+				INFOPLIST_FILE = "Flippi/Flippi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFF9842D14F9ED880038B326 /* Build configuration list for PBXProject "Flippi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF9844F14F9ED880038B326 /* Debug */,
+				EFF9845014F9ED880038B326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFF9845114F9ED880038B326 /* Build configuration list for PBXNativeTarget "Flippi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF9845214F9ED880038B326 /* Debug */,
+				EFF9845314F9ED880038B326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFF9842A14F9ED880038B326 /* Project object */;
+}
