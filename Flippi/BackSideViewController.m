@@ -29,7 +29,7 @@
                         [self.view removeFromSuperview];
                     }
                     completion:NULL];
-    self.frontSideViewController.view.frame = CGRectMake(0, 0, 200, 200);
+    self.frontSideViewController.view.frame = self.frontSideViewController.view.superview.bounds;
 }
 
 - (IBAction)flip2BtnPressed:(id)sender {
@@ -43,13 +43,13 @@
 	[UIView commitAnimations];
 	[self.view.superview addSubview:self.frontSideViewController.view];
     [self.view removeFromSuperview];
-    self.frontSideViewController.view.frame = CGRectMake(0, 0, 200, 200);
+    self.frontSideViewController.view.frame = self.frontSideViewController.view.superview.bounds;
 }
 
 - (IBAction)flip3BtnPressed:(id)sender {    
     self.frontSideViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"FrontSideViewController"];
     [UIView transitionFromView:self.view toView:self.frontSideViewController.view duration:1.0 options:UIViewAnimationOptionTransitionFlipFromLeft completion:nil];
-    self.frontSideViewController.view.frame = CGRectMake(0, 0, 200, 200);    
+    self.frontSideViewController.view.frame = self.frontSideViewController.view.superview.bounds;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil

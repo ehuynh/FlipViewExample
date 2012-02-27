@@ -30,8 +30,7 @@
                         [self.view removeFromSuperview];
                     }
                     completion:NULL];
-    self.backSideViewController.view.frame = CGRectMake(0, 0, 200, 200);
-
+    self.backSideViewController.view.frame = self.backSideViewController.view.superview.bounds;
 }
 
 - (IBAction)flip2BtnPressed:(id)sender {
@@ -45,13 +44,13 @@
 	[UIView commitAnimations];
 	[self.view.superview addSubview:self.backSideViewController.view];
     [self.view removeFromSuperview];
-    self.backSideViewController.view.frame = CGRectMake(0, 0, 200, 200);
+    self.backSideViewController.view.frame = self.backSideViewController.view.superview.bounds;
 }
 
 - (IBAction)flip3BtnPressed:(id)sender {
     self.backSideViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"BackSideViewController"];
     [UIView transitionFromView:self.view toView:self.backSideViewController.view duration:1.0 options:UIViewAnimationOptionTransitionFlipFromLeft completion:nil];
-    self.backSideViewController.view.frame = CGRectMake(0, 0, 200, 200);
+    self.backSideViewController.view.frame = self.backSideViewController.view.superview.bounds;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
