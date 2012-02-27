@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF743AF414FB97E2008A9A31 /* README.rdoc in Resources */ = {isa = PBXBuildFile; fileRef = EF743AF314FB97E2008A9A31 /* README.rdoc */; };
 		EFF9843814F9ED880038B326 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF9843714F9ED880038B326 /* UIKit.framework */; };
 		EFF9843A14F9ED880038B326 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF9843914F9ED880038B326 /* Foundation.framework */; };
 		EFF9843C14F9ED880038B326 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF9843B14F9ED880038B326 /* CoreGraphics.framework */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF743AF314FB97E2008A9A31 /* README.rdoc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.rdoc; sourceTree = "<group>"; };
 		EFF9843314F9ED880038B326 /* Flippi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flippi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFF9843714F9ED880038B326 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EFF9843914F9ED880038B326 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -56,6 +58,7 @@
 		EFF9842814F9ED880038B326 = {
 			isa = PBXGroup;
 			children = (
+				EF743AF314FB97E2008A9A31 /* README.rdoc */,
 				EFF9843D14F9ED880038B326 /* Flippi */,
 				EFF9843614F9ED880038B326 /* Frameworks */,
 				EFF9843414F9ED880038B326 /* Products */,
@@ -160,6 +163,7 @@
 			files = (
 				EFF9844214F9ED880038B326 /* InfoPlist.strings in Resources */,
 				EFF9844B14F9ED880038B326 /* MainStoryboard.storyboard in Resources */,
+				EF743AF414FB97E2008A9A31 /* README.rdoc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +290,7 @@
 				EFF9845314F9ED880038B326 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
